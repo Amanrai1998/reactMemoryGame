@@ -1,0 +1,39 @@
+.game-tiles{
+    width: 150px;
+    height: 150px;
+    border: 6px solid #9e8368;
+    border-radius: 20px;
+    margin: 15px;
+    transition: background-color 600ms;
+    background-color: #9e8368;
+}
+
+@keyframes shake{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(-5deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(5deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes enlarge{
+    0%{
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}

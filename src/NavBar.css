@@ -1,0 +1,13 @@
+nav{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #300b00;
+    color: white;
+}
+nav li a{
+    font-size: 12px;
+    cursor: pointer;
+}
+
